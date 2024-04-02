@@ -16,7 +16,7 @@ jobs:
         HOST: ${{ secrets.HOST }}
         USERNAME: ${{ secrets.USERNAME }}
         PORT: ${{ secrets.PORT }}
-        KEY: ${{ secrets.SSHKEY }}
+        SSH: ${{ secrets.SSHKEY }}
       with:
         source: "."
         target: "/home/apitecha/public_html"
@@ -27,5 +27,5 @@ jobs:
         host: ${{ secrets.HOST }}
         USERNAME: ${{ secrets.USERNAME }}
         PORT: ${{ secrets.PORT }}
-        KEY: ${{ secrets.SSHKEY }}
+        SSH: ${{ secrets.SSHKEY }}
         script: build
