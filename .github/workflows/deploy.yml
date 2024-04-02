@@ -35,6 +35,8 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
         script: |
+            cd /home/apitecha/public_html
             git pull
             npm install
             npm run build
+            pm2 restart your-pm2-service-name
