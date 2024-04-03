@@ -27,4 +27,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         port: ${{ secrets.PORT }}
         key: ${{ secrets.SSHKEY }}
-        script: npm run build
+        script: npm run build && pm2 startOrRestart ecosystem
