@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -7,7 +7,12 @@ export default function Header() {
       <nav className="fixed top-0 left-0 z-20 w-full bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link href="/" className="flex items-center">
-            <Image alt="apitecha servicios profesionales de diseño y desarrollo web freelance en méxico" src="/logo.svg" width={40} height={40} />
+            <Image
+              alt="apitecha servicios profesionales de diseño y desarrollo web freelance en méxico"
+              src="/logo.svg"
+              width={40}
+              height={40}
+            />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white ml-3">
               ApiTecha
             </span>
