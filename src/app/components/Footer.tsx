@@ -29,7 +29,7 @@ export default function Footer() {
           <a href="https://apitecha.com/" className="hover:underline">
             ApiTecha™
           </a>
-          . Todos Los Derechos Reservados. México. Desarrollo de API's
+          . Todos Los Derechos Reservados. México.
         </span>
       </div>
     </footer>
