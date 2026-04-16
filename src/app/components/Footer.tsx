@@ -2,25 +2,25 @@ export default function Footer() {
   return (
     <footer className="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600 flex items-center justify-center">
       <div className="mx-auto max-w-screen-xl flex flex-col justify-center items-center">
-        <ul className="flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <ul className="flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 uppercase">
           <li>
             <a href="/somos" className="hover:underline me-4 md:me-6">
-              Somos
+              Who We Are
             </a>
           </li>
           <li>
             <a href="#" className="hover:underline me-4 md:me-6">
-              Política de Privacidad
+              Privacy Policy
             </a>
           </li>
           <li>
             <a href="#" className="hover:underline me-4 md:me-6">
-              Licencia
+              License
             </a>
           </li>
           <li>
             <a href="#" className="hover:underline">
-              Contacto
+              Contact
             </a>
           </li>
         </ul>
